@@ -1,0 +1,120 @@
+[2022.06.02-15.40.28:340][932]LogOnlineSession: Error: OSS: EOS_Metrics_BeginPlayerSession() returned EOS result code (EOS_InvalidParameters)
+[2022.06.02-15.40.28:341][932]LogOnlineSession: Error: OSS: [FOnlineSessionEOS::AddLobbyAttribute] LobbyModification_AddAttribute for attribute name (OwningUserName) not successful. Finished with EOS_EResult EOS_InvalidParameters
+
+
+[2022.06.05-03.04.17:383][776]LogEOSSDK: Warning: LogEOSLobby: Lobby will be created, but user lacks permission to advertise presence.
+[2022.06.05-03.04.17:388][777]LogEOSSDK: LogEOSLobby: Created lobby socket. LocalUserId=[000...8a2] WebSocket=[00000898A10B3A90]
+[2022.06.05-03.04.17:389][777]LogEOSSDK: LogEOSLobby: Opening Lobby Socket To: "wss://api.epicgames.dev/lobby/v1/d2c94c417dd54ddf87e5b3f7d3b6742b/lobbies/connect"
+[2022.06.05-03.04.17:684][826]LogEOSSDK: LogEOSLobby: Connection Established
+[2022.06.05-03.04.18:607][842]LogEOSVoiceChat: Warning: [00000898A46F0A10] EOS_Lobby_GetLobbyRTCRoomName failed error=EOS_Disabled
+[2022.06.05-03.04.18:607][842]LogOnlineSession: Error: OSS: EOS_Metrics_BeginPlayerSession() returned EOS result code (EOS_InvalidParameters)
+[2022.06.05-03.04.18:607][842]LogOnlineSession: Error: OSS: [FOnlineSessionEOS::AddLobbyAttribute] LobbyModification_AddAttribute for attribute name (OwningUserName) not successful. Finished with EOS_EResult EOS_InvalidParameters
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS: dumping NamedSession:
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS:   SessionName: Test Session
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS:   HostingPlayerNum: 0
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS:   SessionState: Pending
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS:   RegisteredPlayers:
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS:       0 registered players
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS: dumping Session:
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS:   OwningPlayerName: BodyBagger!!
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS:   OwningPlayerId: BodyBagger!! [0x11000011705E11D]
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS:   NumOpenPrivateConnections: 0
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS:   NumOpenPublicConnections: 4
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS:   SessionInfo: HostIP: INVALID SteamP2P: 76561198346527005:7777 Type: Lobby session SessionId: Lobby[0x1860000265EE410]
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS: dumping SessionSettings:
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS:   NumPublicConnections: 5
+[2022.06.05-03.04.18:861][860]LogOnlineSession: Verbose: OSS:   NumPrivateConnections: 0
+[2022.06.05-03.04.18:862][860]LogOnlineSession: Verbose: OSS:   bIsLanMatch: false
+[2022.06.05-03.04.18:867][860]LogOnlineSession: Verbose: OSS:   bIsDedicated: false
+[2022.06.05-03.04.18:868][860]LogOnlineSession: Verbose: OSS:   bUsesStats: false
+[2022.06.05-03.04.18:868][860]LogOnlineSession: Verbose: OSS:   bShouldAdvertise: true
+[2022.06.05-03.04.18:869][860]LogOnlineSession: Verbose: OSS:   bAllowJoinInProgress: true
+[2022.06.05-03.04.18:869][860]LogOnlineSession: Verbose: OSS:   bAllowInvites: false
+[2022.06.05-03.04.18:870][860]LogOnlineSession: Verbose: OSS:   bUsesPresence: true
+[2022.06.05-03.04.18:871][860]LogOnlineSession: Verbose: OSS:   bAllowJoinViaPresence: true
+[2022.06.05-03.04.18:871][860]LogOnlineSession: Verbose: OSS:   bAllowJoinViaPresenceFriendsOnly: false
+[2022.06.05-03.04.18:872][860]LogOnlineSession: Verbose: OSS:   BuildUniqueId: 0x0129a2ee
+[2022.06.05-03.04.18:872][860]LogOnlineSession: Verbose: OSS:   Settings:
+[2022.06.05-03.04.18:873][860]LogOnlineSession: Verbose: OSS:           SEARCHKEYWORDS=YTTutorialLobby : OnlineService
+[2022.06.05-03.04.18:873][860]LogTemp: Warning: Success: 1 Session Created succesfully
+
+
+[2022.06.05-23.10.38:730][160]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.38:736][161]LogEOSSDK: LogEOSOverlay: LoadURL result received. [Success=1, BrowserID=1]
+[2022.06.05-23.10.38:871][185]LogEOSSDK: LogEOSMessaging: Attempting connection to Stomp. LocalUserId=[000...190] Url=[<Redacted>]
+[2022.06.05-23.10.38:877][186]LogOnlineFriend: Warning: OSS: [FUserManagerEOS::QueryBlockedPlayers] This method is not supported.
+[2022.06.05-23.10.38:877][186]LogTemp: Warning: Call from logincomplete:: LoggedIn: 1 Completed Successful Error String =
+[2022.06.05-23.10.39:151][228]LogEOSSDK: LogEOSPresence: Updating Presence to Online. LocalUserId=[e52...5cf] RichText=[]
+[2022.06.05-23.10.39:517][288]LogEOSSDK: LogEOSMessaging: Succesfully connected to Stomp. LocalUserId=[000...190]
+[2022.06.05-23.10.39:599][300]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.39:714][320]LogEOSSDK: LogEOSUI: Social Overlay: Achievements refreshing player data for (e52...5cf) [state: 0, force: player? false, definitions? false].
+[2022.06.05-23.10.39:807][334]LogEOSSDK: LogEOSUI: Social Overlay: Achievements refreshing definition data for (e52...5cf) [state: 2, force: player? false, definitions? false].
+[2022.06.05-23.10.39:894][349]LogEOSSDK: LogEOSUI: Social Overlay: Achievements populated for (e52...5cf).
+[2022.06.05-23.10.40:153][383]LogEOSSDK: LogEOSUI: Social Overlay: Initial setup of friends overlay: EOS_Success
+[2022.06.05-23.10.40:289][405]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.40:369][417]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.40:459][431]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.40:569][445]LogEOSSDK: LogEOSUI: Social Overlay: Achievements refreshing player data for (e52...5cf) [state: 1, force: player? false, definitions? false].
+[2022.06.05-23.10.40:667][456]LogEOSSDK: LogEOSUI: Social Overlay: Achievements refreshing definition data for (e52...5cf) [state: 2, force: player? false, definitions? false].
+[2022.06.05-23.10.40:689][459]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.40:744][465]LogEOSSDK: LogEOSOverlay: Received new texture handle. [Type=0, InstanceId=6924238851856, BrowserId=1, TabId=0, Previous=0000000000000000, New=0000000080005E02]
+[2022.06.05-23.10.40:760][467]LogEOSSDK: LogEOSUI: Social Overlay: Achievements populated for (e52...5cf).
+[2022.06.05-23.10.40:820][473]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.41:249][518]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.43:268][816]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.44:958][ 65]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.46:278][315]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.47:518][656]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.48:762][767]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.49:899][ 81]LogBlueprintUserMessages: [ALS_CharacterBPModded_C_0] Hello
+[2022.06.05-23.10.49:900][ 81]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.06.05-23.10.49:900][ 81]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.06.05-23.10.49:900][ 81]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.06.05-23.10.50:288][190]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.51:446][512]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2022.06.05-23.10.51:447][512]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.06.05-23.10.51:457][513]LogEOSSDK: LogEOSLobby: Created lobby socket. LocalUserId=[000...190] WebSocket=[0000064C6D4D0190]
+[2022.06.05-23.10.51:457][513]LogEOSSDK: LogEOSLobby: Opening Lobby Socket To: "wss://api.epicgames.dev/lobby/v1/d2c94c417dd54ddf87e5b3f7d3b6742b/lobbies/connect"
+[2022.06.05-23.10.51:508][525]LogAudioMixer: Warning: Decoder Error, stopping source [Concrete_Step_01]
+[2022.06.05-23.10.51:726][586]LogEOSSDK: LogEOSLobby: Connection Established
+[2022.06.05-23.10.51:855][621]LogEOSSDK: LogEOSLobby: Created lobby has an associated RTC Room. LobbyId=[5e146e6f36404629b506c7f1b4c146af] LocalUserId=[000...190] RoomName=[conf+1013193465]
+[2022.06.05-23.10.51:855][621]LogEOSSDK: LogEOSRTC: RTCRoom [conf+1013193465 000...190] UpdateAudioSending AudioEnabled
+[2022.06.05-23.10.52:315][621]LogEOSSDK: LogEOSRTC: JoinRoom wss://ec27ebed-777c-abcd-7fca-cf2253acf715-us-east-2.rtcp.on.epicgames.com conf+1013193465 000...190 AecEnabled NsEnabled AgcEnabled DtxEnabled
+[2022.06.05-23.10.52:315][621]LogEOSSDK: LogEOSRTC: RTCRoom [conf+1013193465 000...190] UpdateAudioInput {default_device} -1.000000 PlatformAecEnabled
+[2022.06.05-23.10.52:317][621]LogEOSSDK: LogEOSRTC: RTCRoom [conf+1013193465 000...190] UpdateAudioOutput {default_device} -1.000000
+[2022.06.05-23.10.52:815][622]LogEOSSDK: LogEOSRTC: RTCRoom [conf+1013193465 000...190] UpdateAudioInput {default_device} 50.000000 PlatformAecDisabled
+[2022.06.05-23.10.52:815][622]LogEOSSDK: LogEOSRTC: RTCRoom [conf+1013193465 000...190] UpdateAudioOutput {default_device} 50.000000
+[2022.06.05-23.10.52:817][622]LogEOSSDK: LogEOSRTC: RTCRoom [conf+1013193465 000...190] UpdateAudioInput {default_device} 50.000000 PlatformAecDisabled
+[2022.06.05-23.10.52:817][622]LogEOSVoiceChat: [0000064C6D6A2810] BindChannelCallbacks ChannelName=[conf+1013193465]
+[2022.06.05-23.10.52:818][622]LogEOSSDK: LogEOSRTC: RTCRoom [conf+1013193465 000...190] UpdateAudioSending AudioEnabled
+[2022.06.05-23.10.52:818][622]LogEOSVoiceChat: [0000064C6D6A2810] OnUpdateSending ChannelName=[conf+1013193465] Success
+[2022.06.05-23.10.52:819][622]LogEOSSDK: LogEOSRTC: RTCRoom [conf+1013193465 000...190] UpdateAudioReceiving Global AudioEnabled
+[2022.06.05-23.10.52:819][622]LogEOSVoiceChat: [0000064C6D6A2810] OnUpdateReceiving ChannelName=[conf+1013193465] PlayerName=[] Success
+[2022.06.05-23.10.52:820][622]LogEOSSDK: LogEOSPresence: Updating Presence to Online. LocalUserId=[e52...5cf] RichText=[]
+[2022.06.05-23.10.52:993][632]LogOnlineSession: Verbose: OSS: dumping NamedSession:
+[2022.06.05-23.10.52:993][632]LogOnlineSession: Verbose: OSS:   SessionName: Test Session
+[2022.06.05-23.10.52:995][632]LogOnlineSession: Verbose: OSS:   HostingPlayerNum: 0
+[2022.06.05-23.10.52:995][632]LogOnlineSession: Verbose: OSS:   SessionState: Pending
+[2022.06.05-23.10.52:996][632]LogOnlineSession: Verbose: OSS:   RegisteredPlayers:
+[2022.06.05-23.10.52:997][632]LogOnlineSession: Verbose: OSS:       0 registered players
+[2022.06.05-23.10.52:998][632]LogOnlineSession: Verbose: OSS: dumping Session:
+[2022.06.05-23.10.52:998][632]LogOnlineSession: Verbose: OSS:   OwningPlayerName: BodyBagger!!
+[2022.06.05-23.10.52:999][632]LogOnlineSession: Verbose: OSS:   OwningPlayerId: BodyBagger!! [0x11000011705E11D]
+[2022.06.05-23.10.52:999][632]LogOnlineSession: Verbose: OSS:   NumOpenPrivateConnections: 0
+[2022.06.05-23.10.53:000][632]LogOnlineSession: Verbose: OSS:   NumOpenPublicConnections: 4
+[2022.06.05-23.10.53:000][632]LogOnlineSession: Verbose: OSS:   SessionInfo: HostIP: INVALID SteamP2P: 76561198346527005:7777 Type: Lobby session SessionId: Lobby[0x18600002B64A50F]
+[2022.06.05-23.10.53:000][632]LogOnlineSession: Verbose: OSS: dumping SessionSettings:
+[2022.06.05-23.10.53:001][632]LogOnlineSession: Verbose: OSS:   NumPublicConnections: 5
+[2022.06.05-23.10.53:001][632]LogOnlineSession: Verbose: OSS:   NumPrivateConnections: 0
+[2022.06.05-23.10.53:002][632]LogOnlineSession: Verbose: OSS:   bIsLanMatch: false
+[2022.06.05-23.10.53:002][632]LogOnlineSession: Verbose: OSS:   bIsDedicated: false
+[2022.06.05-23.10.53:003][632]LogOnlineSession: Verbose: OSS:   bUsesStats: false
+[2022.06.05-23.10.53:003][632]LogOnlineSession: Verbose: OSS:   bShouldAdvertise: true
+[2022.06.05-23.10.53:004][632]LogOnlineSession: Verbose: OSS:   bAllowJoinInProgress: true
+[2022.06.05-23.10.53:004][632]LogOnlineSession: Verbose: OSS:   bAllowInvites: true
+[2022.06.05-23.10.53:004][632]LogOnlineSession: Verbose: OSS:   bUsesPresence: true
+[2022.06.05-23.10.53:005][632]LogOnlineSession: Verbose: OSS:   bAllowJoinViaPresence: true
+[2022.06.05-23.10.53:007][632]LogOnlineSession: Verbose: OSS:   bAllowJoinViaPresenceFriendsOnly: false
+[2022.06.05-23.10.53:008][632]LogOnlineSession: Verbose: OSS:   BuildUniqueId: 0x0129a2ee
+[2022.06.05-23.10.53:008][632]LogOnlineSession: Verbose: OSS:   Settings:
+[2022.06.05-23.10.53:009][632]LogOnlineSession: Verbose: OSS:           SEARCHKEYWORDS=YTTutorialLobby : OnlineService

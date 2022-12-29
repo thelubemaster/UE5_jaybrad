@@ -1,0 +1,49 @@
+[2022.06.15-05.09.54:520][699]LogTemp: Warning: Found 1 Lobbies
+[2022.06.15-05.09.54:530][700]LogEOSSDK: LogEOSLobby: Created lobby socket. LocalUserId=[000...67d] WebSocket=[000008E5013B1810]
+[2022.06.15-05.09.54:530][700]LogEOSSDK: LogEOSLobby: Opening Lobby Socket To: "wss://api.epicgames.dev/lobby/v1/d2c94c417dd54ddf87e5b3f7d3b6742b/lobbies/connect"
+[2022.06.15-05.09.55:163][764]LogEOSSDK: LogEOSLobby: Connection Established
+[2022.06.15-05.09.55:319][780]LogEOSSDK: LogEOSLobby: Joined lobby has an associated RTC Room. RoomName=[conf+-1476626749]
+[2022.06.15-05.09.55:319][780]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] UpdateAudioSending AudioEnabled
+[2022.06.15-05.09.55:671][780]LogEOSSDK: LogEOSRTC: JoinRoom wss://signaling-service-prod.usw2.live.rtcp.on.epicgames.com/api/v1/websocket_route?ms=wss://10.131.118.229 conf+-1476626749 000...67d AecEnabled NsEnabled AgcEnabled DtxEnabled
+[2022.06.15-05.09.55:672][780]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] UpdateAudioInput {default_device} -1.000000 PlatformAecEnabled
+[2022.06.15-05.09.55:673][780]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] UpdateAudioOutput {default_device} -1.000000
+[2022.06.15-05.09.55:949][781]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] UpdateAudioInput {default_device} 50.000000 PlatformAecDisabled
+[2022.06.15-05.09.55:950][781]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] UpdateAudioOutput {default_device} 50.000000
+[2022.06.15-05.09.55:951][781]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] UpdateAudioInput {default_device} 50.000000 PlatformAecDisabled
+[2022.06.15-05.09.55:951][781]LogEOSVoiceChat: [000008E4D8C5EB10] BindChannelCallbacks ChannelName=[conf+-1476626749]
+[2022.06.15-05.09.55:952][781]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] UpdateAudioSending AudioEnabled
+[2022.06.15-05.09.55:952][781]LogEOSVoiceChat: [000008E4D8C5EB10] OnUpdateSending ChannelName=[conf+-1476626749] Success
+[2022.06.15-05.09.55:953][781]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] UpdateAudioReceiving Global AudioEnabled
+[2022.06.15-05.09.55:953][781]LogEOSVoiceChat: [000008E4D8C5EB10] OnUpdateReceiving ChannelName=[conf+-1476626749] PlayerName=[] Success
+[2022.06.15-05.09.55:954][781]LogEOSSDK: LogEOSPresence: Updating Presence to Online. LocalUserId=[632...13f] RichText=[]
+[2022.06.15-05.09.55:954][781]LogNet: Browse: EOS:00022e10306e4206af75539a3dd35190:GameNetDriver:26/Game/ALScontent/ALS_DemoLevelModded
+[2022.06.15-05.09.55:955][781]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.06.15-05.09.55:955][781]LogEOSSDK: LogEOSP2P: A new connection closed listener has been bound. LocalUserId=[000...67d] SocketId=[GameNetDriver]
+[2022.06.15-05.09.55:956][781]LogEOSSDK: LogEOSP2P: Added new peer. LocalUserId=[000...67d] RemoteUserId=[000...190]
+[2022.06.15-05.09.58:040][993]LogEOSSDK: LogEOSRTC: LibRTCMediaService: Control channel connected
+[2022.06.15-05.09.58:904][ 77]LogEOSSDK: LogEOSRTC: LibRTCMediaService: Connected to 52.38.71.209. Local port: 65463. Remote port: 443
+[2022.06.15-05.09.59:149][ 99]LogEOSSDK: LogEOSRTC: LibRTCRTCP: PeerConnection has been created
+[2022.06.15-05.09.59:183][102]LogEOSSDK: LogEOSRTC: LibRTCCore: Starting playout is successful
+[2022.06.15-05.09.59:453][128]LogEOSSDK: LogEOSRTC: LibRTCCore: Starting recording is successful
+[2022.06.15-05.09.59:464][129]LogEOSSDK: LogEOSRTC: LibRTCCore: Connection to the conference succeeded.
+[2022.06.15-05.09.59:464][129]LogEOSVoiceChat: [000008E4D8C5EB10] OnLobbyChannelConnectionChanged LobbyId=[5c058a6375ca455e9c7f7c38b6102ed1] bIsConnected=[true] Reason=[Success]
+[2022.06.15-05.09.59:555][129]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] Participant connected to room 000...190
+[2022.06.15-05.09.59:555][129]LogEOSVoiceChat: [000008E4D8C5EB10] OnChannelParticipantJoined ChannelName=[conf+-1476626749] PlayerName=[00022e10306e4206af75539a3dd35190]
+[2022.06.15-05.09.59:557][129]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] UpdateAudioReceiving 000...190 AudioEnabled
+[2022.06.15-05.09.59:557][129]LogEOSVoiceChat: [000008E4D8C5EB10] OnUpdateReceiving ChannelName=[conf+-1476626749] PlayerName=[00022e10306e4206af75539a3dd35190] Success
+[2022.06.15-05.09.59:558][129]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] BlockParticipant 000...190 Unblocked
+[2022.06.15-05.09.59:558][129]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] StartRecording device#[requested={default_device} actual={9a2130ee-914f-4100-bc2d-a18e35bc849b}] index=-1 channels=2 rate=48000
+[2022.06.15-05.09.59:717][129]LogEOSVoiceChat: [000008E4D8C5EB10] OnChannelAudioInputState ChannelName=[conf+-1476626749] State=[EOS_RTCAIS_Recording]
+[2022.06.15-05.09.59:717][129]LogEOSVoiceChat: [000008E4D8C5EB10] OnBlockUser ChannelName=[conf+-1476626749] PlayerName=[00022e10306e4206af75539a3dd35190] Block=[0] Success
+[2022.06.15-05.09.59:719][129]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] StartRendering device#[requested={default_device} actual={0.0.0.00000000}.{0bd31299-a209-483f-a86b-b05fe0a874cd}] index=-1 channels=2 rate=48000
+[2022.06.15-05.09.59:756][129]LogEOSSDK: Warning: LogEOSRTC: LibRTCCore: LibRtc::FStatisticsService::GetConferenceStats. Collecting statistics is already in progress
+[2022.06.15-05.09.59:785][131]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] Conference reconnection has been started. Errno: {4010 : "Reloading rtcp connection"}
+[2022.06.15-05.09.59:785][131]LogEOSSDK: Error: LogEOSRTC: LibRTCMediaService: Connection error: The connection was interrupted due to rtcp reloading
+[2022.06.15-05.09.59:786][131]LogEOSSDK: LogEOSRTC: LibRTCMediaService: Reconnect schedule after 1s iteration 1
+[2022.06.15-05.10.01:077][249]LogEOSSDK: LogEOSRTC: LibRTCMediaService: Control channel connected
+[2022.06.15-05.10.01:181][259]LogEOSSDK: LogEOSRTC: LibRTCMediaService: Connected to 52.38.71.209. Local port: 65479. Remote port: 443
+[2022.06.15-05.10.01:192][260]LogEOSSDK: LogEOSRTC: LibRTCRTCP: PeerConnection has been created
+[2022.06.15-05.10.01:216][262]LogEOSSDK: LogEOSRTC: LibRTCCore: Starting playout is successful
+[2022.06.15-05.10.01:469][286]LogEOSSDK: LogEOSRTC: LibRTCCore: Starting recording is successful
+[2022.06.15-05.10.01:480][287]LogEOSSDK: LogEOSRTC: RTCRoom [conf+-1476626749 000...67d] Conference reconnection has been finished. Errno: {0 : "Successful result"}
+[2022.06.15-05.10.01:480][287]LogEOSSDK: LogEOSRTC: LibRTCMediaService: Reconnect successful
